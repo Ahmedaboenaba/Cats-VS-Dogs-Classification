@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data (large files)
+dataset/
+dataset/**/*.jpg
+dataset/**/*.jpeg
+dataset/**/*.png
+
+# Models (large files - optional)
+models/
+models/*.h5
+models/*.keras
+models/*.pth
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+temp/
+
+# Streamlit cache
+.streamlit/
+
+# Flask cache
+instance/
+.webassets-cache
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Generated files
+predictions.json
+results/
+
+# IDE specific
+.pylintrc
+.pytest_cache/
