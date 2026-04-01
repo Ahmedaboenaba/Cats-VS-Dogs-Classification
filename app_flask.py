@@ -26,7 +26,7 @@ app = Flask(__name__)
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size
 
 # Model configuration
-MODEL_PATH = "./models/cats_dogs_cnn_model.keras"
+MODEL_PATH = "cats_dogs_cnn_model.keras"
 ALT_MODEL_PATH = "./models/cats_dogs_cnn_model.h5"
 IMAGE_SIZE = (128, 128)
 
