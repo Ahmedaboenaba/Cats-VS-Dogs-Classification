@@ -45,7 +45,7 @@ dataset/**/*.jpeg
 dataset/**/*.png
 
 # Models (large files - optional)
-models/
+#models/
 #models/*.h5
 #models/*.keras
 models/*.pth
