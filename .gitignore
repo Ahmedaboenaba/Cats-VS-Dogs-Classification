@@ -46,8 +46,8 @@ dataset/**/*.png
 
 # Models (large files - optional)
 models/
-models/*.h5
-models/*.keras
+#models/*.h5
+#models/*.keras
 models/*.pth
 
 # Logs

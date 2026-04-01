@@ -47,7 +47,7 @@ st.markdown("""
 class CatsDogsClassifier:
     """Helper class for model loading and predictions"""
 
-    def __init__(self, model_path="cats_dogs_cnn_model.keras"):
+    def __init__(self, model_path="models/cats_dogs_cnn_model.keras"):
         self.model_path = model_path
         self.model = None
         self.image_size = (128, 128)
